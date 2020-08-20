@@ -1,0 +1,124 @@
+
+ul {
+    font-size: 24;
+    margin: 1;
+    padding: 2;
+    background: white;
+    color: firebrick;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+	font-family: vertical-align;
+	background:#F5B7B1;
+    color:#17202A;
+    text-decoration:none;
+    text-transform: capitalize;
+    padding: 16px 93px;
+    display: inline-block;
+	width:100%;
+
+}
+
+ul li a:hover {
+    background: green;
+    color: white;
+}
+
+.dropdw-content {
+    width: 74px;
+    display: none;
+    position: absolute;
+}
+
+.dropdw-content a {
+    display: block;
+    background: grey;
+    color: navy;
+}
+
+.dropdw-content a:hover {
+    background: blue;
+    color: aliceblue;
+}
+
+.dropdown:hover .dropdw-content {
+    display: block;
+}
+
+
+.content {
+    width: 90px;
+    display: none;
+    position: absolute;
+
+}
+
+.ord {
+    width: 65px;
+    display: none;
+    position: absolute;
+
+}
+
+.ord a {
+    background: grey;
+    color: navy;
+    display: block;
+
+}
+
+.ord a:hover {
+    background: blue;
+    color: white;
+}
+
+.order:hover .ord {
+    display: block;
+}
+
+
+.content a {
+    background: grey;
+    color: navy;
+    display: block;
+}
+
+.content :hover {
+    background: blue;
+    color: white;
+
+}
+
+.payment:hover .content {
+    display: block;
+}
+
+.abnext {
+    width: 105spx;
+    display: none;
+    position: absolute;
+
+}
+
+.abnext a {
+    background: grey;
+    color: navy;
+    display: block;
+
+}
+
+.abnext a:hover {
+    background: blue;
+    color: white;
+}
+
+.about:hover .abnext {
+    display: block;
+
+}
